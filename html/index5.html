@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning js</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <form id="form">
+      <fieldset>
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+        <br />
+        <label for="set">Set:</label>
+        <select id="set">
+          <option value="A">Set A</option>
+          <option value="B">Set B</option>
+          <option value="C">Set C</option>
+          <option value="D">Set D</option>
+          <option value="E">Set E</option>
+          <option value="F">Set F</option></select
+        ><br />
+        <p>Choose your campus:</p>
+        <input
+          type="radio"
+          id="bby-campus"
+          name="campus"
+          value="Burnaby Campus"
+        />
+        <label for="bby-campus">Burnaby Campus</label><br />
+        <input
+          type="radio"
+          id="dtc-campus"
+          name="campus"
+          value="Downtown Campus"
+        />
+        <label for="dtc-campus">Downtown Campus</label><br />
+        <p>Choose your modes of transportation:</p>
+        <input type="checkbox" id="bus" name="transportation" value="Bus" />
+        <label for="bus">Bus</label>
+        <input type="checkbox" id="car" name="transportation" value="Car" />
+        <label for="bus">Car</label>
+        <input type="checkbox" id="walk" name="transportation" value="Walk" />
+        <label for="bus">Walk</label>
+        <input type="checkbox" id="bike" name="transportation" value="Bike" />
+        <label for="bus">Bike</label>
+
+        <button type="button" id="submit">Submit</button>
+      </fieldset>
+    </form>
+
+    <div id="results">
+      <p id="name-display"></p>
+      <p id="set-display"></p>
+      <p id="campus-display"></p>
+      <p id="transportation-display"></p>
+    </div>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
